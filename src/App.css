@@ -1,0 +1,48 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; /* Utilise flexbox pour la mise en page */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+  justify-content: space-between; /* Espacement entre les éléments */
+}
+
+.container-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+ 
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px; /* Augmente la taille du titre */
+}
+
+button {
+  color: rgb(3, 0, 0);
+  padding: 10px 20px;
+  
+  border-radius: 5px;
+  border: 1px green solid;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #e3efe3; /* Changement de couleur au survol */
+}
+
+
+
+
+
+.container {
+  background-color: #f5f5f5; /* Changement de couleur de fond */
+}
+
+.container-item {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+}
